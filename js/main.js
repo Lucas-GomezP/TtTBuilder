@@ -100,6 +100,21 @@ function clearActiveClasses(nodeList, classRemove) {
     });
 }
 
+// Creamos el evento para que se dispongan el buscador y el editor correctamente dependiendo de cuan grande sea la pantalla
+window.addEventListener('resize', () => {
+    if (document.querySelector('body').clientWidth <= 1200) {
+        if (teamSlotsDisplay.classList[0] === 'display-small') {
+            teamEdit.classList = ['hidden'];
+            teamSlotsDisplay.classList = ['display-medium'];
+            teamSlotsInfo.forEach(info => info.classList.remove('hidden'));
+        }
+    } else if (document.querySelector('body').clientWidth > 1200 && !searcher.classList.contains('hidden')) {
+        teamEdit.classList.remove('hidden');
+        teamSlotsInfo.forEach(info => info.classList.add('hidden'));
+        teamSlotsDisplay.classList = ['display-small'];
+    }
+})
+
 // Creamos una funcion para la manipulacion de los tamaños y disposicion de la informacion en el DOM
 function displayTeamSlots(display) {
     if (document.querySelector('body').clientWidth <= 1200) {

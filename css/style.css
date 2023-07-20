@@ -433,7 +433,7 @@ div[class^="team-slot-container"]:hover {
     padding-top: 0;
     background-color: var(--color-main-c);
     overflow-y: auto;
-    min-width: 500px;
+    min-width: 450px;
     max-width: 555px;
 }
 

@@ -101,6 +101,9 @@ const selectTemtemName = (matches, temtemSelected) => {
     updateMemberData();
     updateSlotData();
     updateSummaryMembers();
+
+    // Cerramos el buscador
+    displayTeamSlots('medium');
 }
 
 // SELECCIONADO DE ATAQUES<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
@@ -223,6 +226,8 @@ const selectTemtemAttack = (matches, attack, slotAttack) => {
         updateSlotsAttacks();
     }
 
+    // Cerramos el buscador
+    displayTeamSlots('medium');
 }
 
 // SELECCIONADO DE TRAITS<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
@@ -282,6 +287,9 @@ const selectTemtemTrait = (matches, trait) => {
     slot.selectedTrait = matches[traitActual].name;
 
     updateTraits();
+
+    // Cerramos el buscador
+    displayTeamSlots('medium');
 }
 
 // SELECCIONADO DE GEAR<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
@@ -338,6 +346,9 @@ const selectTemtemGear = (matches, gear) => {
     slot.gear = matches[gearActual].name;
 
     updateGear();
+
+    // Cerramos el buscador
+    displayTeamSlots('medium');
 }
 
 // MODIFICACION DE STATS<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
