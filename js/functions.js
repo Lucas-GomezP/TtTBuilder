@@ -52,6 +52,7 @@ function updateMemberData() {
     const temtemEditTypes = document.getElementById('temtem-types');
     const temtemEditBaseStats = document.querySelectorAll('input[class^="base-stat"]');
     const temtemEditTvsStats = document.querySelectorAll('input[class^="tvs-stat"]');
+    const temtemEditWiki = document.querySelector('.temtem-wiki-url');
     
     // Editamos la informacion en la seccion de edicion de equipo
     temtemEditImage.setAttribute('src',slot.portrait);
@@ -73,6 +74,7 @@ function updateMemberData() {
         }
         i++;
     }
+    temtemEditWiki.setAttribute('href', slot.wikiUrl);
 
     // Actualizamos los input de los stats totales
     calculateTotalStat();

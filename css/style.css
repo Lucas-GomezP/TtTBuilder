@@ -67,7 +67,6 @@ body {
     font-size: 1.1em;
     background-color: var(--color-main-b);
     color: var(--color-light);
-    border: none;
     padding: 5px;
     border-radius: 10px;
     cursor: pointer;
@@ -77,6 +76,11 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    border: 3px solid transparent;
+}
+
+.introduction-button:hover {
+    border: 3px solid var(--color-detail);
 }
 
 .introduction-button>span {
@@ -90,6 +94,14 @@ body {
     flex-basis: 0;
     display: flex;
     justify-content: flex-end;
+}
+
+.example-team {
+    border: 3px solid transparent;
+}
+
+.example-team:hover {
+    border: 3px solid var(--color-detail);
 }
 
 /* --------------------------------------------------------------------------------------- */
@@ -109,11 +121,14 @@ body {
     display: inline-block;
     font-size: 1.5em;
     padding: 5px;
-    border: none;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     cursor: pointer;
     border: 3px solid transparent;
+}
+
+.nav>button:hover {
+    color: var(--color-detail);
 }
 
 .team-builder-activator {
@@ -412,6 +427,18 @@ div[class^="team-slot-container"]:hover {
     color: var(--color-light);
 }
 
+.temtem-wiki-container {
+    width: 200px;
+    height: 150px;
+    margin: 0 auto;
+}
+
+.temtem-wiki-container img {
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+}
+
 #team-edit-close {
     position: absolute;
     top: 0;
@@ -623,11 +650,19 @@ div[class^="team-slot-container"]:hover {
 .attack-footer {
     display: flex;
     justify-content: space-around;
+    padding: 5px;
+    padding-bottom: 0;
 }
 
 .attack-wiki-container {
-    width: 50px;
-    height: 50px;
+    width: 60px;
+    height: 60px;
+    background-color: transparent;
+}
+
+.attack-wiki-container:hover {
+    background-color: var(--color-detail);
+    border-radius: 5px;
 }
 
 .attack-wiki-container img {
@@ -661,6 +696,12 @@ div[class^="team-slot-container"]:hover {
 .trait-wiki-container {
     width: 60px;
     height: 60px;
+    background-color: transparent;
+    border-radius: 5px;
+}
+
+.trait-wiki-container:hover {
+    background-color: var(--color-detail);
 }
 
 .trait-wiki-container img {
@@ -707,6 +748,12 @@ div[class^="team-slot-container"]:hover {
     width: 70px;
     height: 70px;
     margin: 0 auto;
+    border-radius: 5px;
+    background-color: transparent;
+}
+
+.gear-wiki-container:hover {
+    background-color: var(--color-detail);
 }
 
 .gear-wiki-container img {

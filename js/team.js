@@ -46,7 +46,7 @@ const teamMemberInformation = [
             attackTemtem4 : ['[Select one]', 'none']
         },
         gear : '[Select one]',
-        wikiUrl : '',
+        wikiUrl : 'https://temtem.wiki.gg/wiki/Temtem_Wiki',
         eneableEditingStats : false,
         eneableSummary : false
     },
@@ -94,7 +94,7 @@ const teamMemberInformation = [
             attackTemtem4 : ['[Select one]', 'none']
         },
         gear : '[Select one]',
-        wikiUrl : '',
+        wikiUrl : 'https://temtem.wiki.gg/wiki/Temtem_Wiki',
         eneableEditingStats : false,
         eneableSummary : false
     },
@@ -142,7 +142,7 @@ const teamMemberInformation = [
             attackTemtem4 : ['[Select one]', 'none']
         },
         gear : '[Select one]',
-        wikiUrl : '',
+        wikiUrl : 'https://temtem.wiki.gg/wiki/Temtem_Wiki',
         eneableEditingStats : false,
         eneableSummary : false
     },
@@ -190,7 +190,7 @@ const teamMemberInformation = [
             attackTemtem4 : ['[Select one]', 'none']
         },
         gear : '[Select one]',
-        wikiUrl : '',
+        wikiUrl : 'https://temtem.wiki.gg/wiki/Temtem_Wiki',
         eneableEditingStats : false,
         eneableSummary : false
     },
@@ -238,7 +238,7 @@ const teamMemberInformation = [
             attackTemtem4 : ['[Select one]', 'none']
         },
         gear : '[Select one]',
-        wikiUrl : '',
+        wikiUrl : 'https://temtem.wiki.gg/wiki/Temtem_Wiki',
         eneableEditingStats : false,
         eneableSummary : false
     },
@@ -286,7 +286,7 @@ const teamMemberInformation = [
             attackTemtem4 : ['[Select one]', 'none']
         },
         gear : '[Select one]',
-        wikiUrl : '',
+        wikiUrl : 'https://temtem.wiki.gg/wiki/Temtem_Wiki',
         eneableEditingStats : false,
         eneableSummary : false
     },
@@ -334,7 +334,7 @@ const teamMemberInformation = [
             attackTemtem4 : ['[Select one]', 'none']
         },
         gear : '[Select one]',
-        wikiUrl : '',
+        wikiUrl : 'https://temtem.wiki.gg/wiki/Temtem_Wiki',
         eneableEditingStats : false,
         eneableSummary : false
     },
@@ -382,7 +382,7 @@ const teamMemberInformation = [
             attackTemtem4 : ['[Select one]', 'none']
         },
         gear : '[Select one]',
-        wikiUrl : '',
+        wikiUrl : 'https://temtem.wiki.gg/wiki/Temtem_Wiki',
         eneableEditingStats : false,
         eneableSummary : false
     }
